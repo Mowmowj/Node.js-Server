@@ -23,7 +23,7 @@ var server =http.createServer(function(request, response){
 
 
 
-console.log('get http路径\n'+path)
+console.log('得到 http路径\n'+path)
 console.log('查询字符串为\n'+query)
 console.log('不含查询字符串的路径为\n'+pathNoquery)
 if (path == '/style') {
